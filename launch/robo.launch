@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="rb1" type="rb1_velocity" name="velocity_estimator"/>
+   
+    <param name="pose_X" value="0.0"/>
+    <param name="pose_Y" value="0.0"/>
+    <param name="pose_Theta" value="0"/>
+
+
+
+</launch>
